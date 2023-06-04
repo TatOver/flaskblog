@@ -7,8 +7,10 @@
 {% block body %}
     <div class="container">
         <h1>Все статьи на сайте</h1>
-        {{ articles[0].title }}
+<!--        {{ articles[0].title }}-->
+        {% for el in articles %}
 
+        {% endfor %}
     </div>
 
 {% endblock %}
